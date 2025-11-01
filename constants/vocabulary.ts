@@ -6,17 +6,17 @@ export const VOCABULARY_TOPICS: Topic[] = [
         title: "Contracts",
         vietnameseTitle: "Hợp đồng",
         words: [
-            { english: "abide by", type: "v", definition: "to comply with, to conform", vietnamese: "tuân theo, chịu theo" },
-            { english: "agreement", type: "n", definition: "a mutual arrangement, a contract", vietnamese: "sự thỏa thuận" },
-            { english: "assurance", type: "n", definition: "guarantee", vietnamese: "bảo đảm, chắc chắn" },
+            { english: "abide by", type: "v", definition: "to comply with, to conform", vietnamese: "tuân theo, chấp nhận, tuân thủ" },
+            { english: "agreement", type: "n", definition: "a mutual arrangement, a contract", vietnamese: "sự đồng ý, hợp đồng, thỏa thuận, sự phù hợp" },
+            { english: "assurance", type: "n", definition: "guarantee", vietnamese: "sự đảm bảo, sự cam đoan, sự tự tin, bảo hiểm" },
             { english: "cancel", type: "v", definition: "to annul, to call off", vietnamese: "hủy" },
-            { english: "determine", type: "v", definition: "to find out, to influence", vietnamese: "xác định, giải quyết vấn đề" },
-            { english: "engage", type: "v", definition: "to hire, to involve", vietnamese: "thuê mướn" },
-            { english: "establish", type: "v", definition: "to institute permanently, to bring about", vietnamese: "thành lập" },
+            { english: "determine", type: "v", definition: "to find out, to influence", vietnamese: "xác định, quyết định, định rõ, quyết tâm, kiên quyết" },
+            { english: "engage", type: "v", definition: "to hire, to involve", vietnamese: "thuê mướn, tham gia, cam kết, hứa hẹn, đính hôn" },
+            { english: "establish", type: "v", definition: "to institute permanently, to bring about", vietnamese: "thành lập, củng cố, xây dựng, thiết lập" },
             { english: "obligate", type: "v", definition: "to bind legally or morally", vietnamese: "bắt buộc, ép buộc" },
-            { english: "party", type: "n", definition: "a person or group participating in an action or plan", vietnamese: "bên tham gia" },
-            { english: "provision", type: "n", definition: "a measure taken beforehand, a stipulation", vietnamese: "sự cung cấp, cung ứng" },
-            { english: "resolve", type: "v", definition: "to deal with successfully, to declare", vietnamese: "quyết định" },
+            { english: "party", type: "n", definition: "a person or group participating in an action or plan", vietnamese: "bên tham gia, phe, đảng phái, nhóm người, buổi tiệc, cuộc vui" },
+            { english: "provision", type: "n", definition: "a measure taken beforehand, a stipulation", vietnamese: "sự cung cấp, điều khoản, sự đề phòng, sự dự phòng" },
+            { english: "resolve", type: "v", definition: "to deal with successfully, to declare", vietnamese: "giải quyết" },
             { english: "specify", type: "v", definition: "to mention explicitly", vietnamese: "chỉ rõ, quyết định rõ" }
         ]
     },
@@ -34,7 +34,7 @@ export const VOCABULARY_TOPICS: Topic[] = [
             { english: "fad", type: "n", definition: "a practice followed enthusiastically for a short time, a craze", vietnamese: "mốt nhất thời" },
             { english: "inspire", type: "v", definition: "to spur on, to stimulate imagination or emotion", vietnamese: "truyền cảm hứng" },
             { english: "market", type: "v", definition: "the course of buying and selling a product", vietnamese: "thị trường" },
-            { english: "persuade", type: "v", definition: "to move by argument or logic", vietnamese: "thuyết phục" },
+            { english: "persuade", type: "v", definition: "to move by argument or logic", vietnamese: "thuyết phục, tin tưởng" },
             { english: "productive", type: "adj", definition: "constructive, high yield", vietnamese: "năng suất" },
             { english: "satisfy", type: "v", definition: "to make happy", vietnamese: "hài lòng" }
         ]
@@ -63,7 +63,7 @@ export const VOCABULARY_TOPICS: Topic[] = [
         title: "Business Planning",
         vietnameseTitle: "Kế hoạch kinh doanh",
         words: [
-            { english: "address", type: "v", definition: "to direct to the attention of", vietnamese: "chú tâm" },
+            { english: "address", type: "v", definition: "to direct to the attention of", vietnamese: "chú tâm, bài nói chuyện, cách nói chuyện" },
             { english: "avoid", type: "v", definition: "to stay clear of, to keep from happening", vietnamese: "tránh, ngăn ngừa" },
             { english: "demonstrate", type: "v", definition: "to show clearly and deliberately", vietnamese: "chứng minh" },
             { english: "develop", type: "v", definition: "to expand, progress, or improve", vietnamese: "phát triển" },
@@ -82,7 +82,7 @@ export const VOCABULARY_TOPICS: Topic[] = [
         title: "Conferences",
         vietnameseTitle: "Hội nghị",
         words: [
-            { english: "accommodate", type: "v", definition: "to fit, to provide with something needed", vietnamese: "cung cấp, chứa" },
+            { english: "accommodate", type: "v", definition: "to fit, to provide with something needed", vietnamese: "cung cấp, chứa, làm phù hợp, chứa đựng" },
             { english: "arrangement", type: "n", definition: "the plan or organization", vietnamese: "sự tổ chức, sắp xếp" },
             { english: "association", type: "n", definition: "an organization of persons or groups having a common interest", vietnamese: "sự liên kết, kết hợp" },
             { english: "attend", type: "v", definition: "to pay attention to", vietnamese: "chú tâm" },
@@ -102,10 +102,10 @@ export const VOCABULARY_TOPICS: Topic[] = [
         vietnameseTitle: "Máy tính",
         words: [
             { english: "access", type: "v", definition: "to obtain, to gain entry", vietnamese: "truy cập" },
-            { english: "allocate", type: "v", definition: "to designate for a specific purpose", vietnamese: "chỉ định" },
+            { english: "allocate", type: "v", definition: "to designate for a specific purpose", vietnamese: "cấp cho, phân phát" },
             { english: "compatible", type: "adj", definition: "able to function together", vietnamese: "tương hợp, tương thích" },
             { english: "delete", type: "v", definition: "to remove; to erase", vietnamese: "xóa" },
-            { english: "display", type: "n", definition: "to show", vietnamese: "hiển thị" },
+            { english: "display", type: "n", definition: "to show", vietnamese: "hiển thị, trưng bày" },
             { english: "duplicate", type: "v", definition: "to produce something equal", vietnamese: "tạo bản sao" },
             { english: "fail", type: "v", definition: "not to succeed", vietnamese: "thất bại" },
             { english: "figure out", type: "v", definition: "to understand, to solve", vietnamese: "tìm ra, giải quyết" },
@@ -121,7 +121,7 @@ export const VOCABULARY_TOPICS: Topic[] = [
         vietnameseTitle: "Văn phòng",
         words: [
             { english: "affordable", type: "adj", definition: "able to be paid for", vietnamese: "phải chăng, có thể chi trả" },
-            { english: "be in charge of", type: "v", definition: "to be in control or command of", vietnamese: "đứng đầu, thường trực" },
+            { english: "be in charge of", type: "v", definition: "to be in control or command of", vietnamese: "đứng đầu, thường trực, chịu trách nhiệm về, đang điều khiển" },
             { english: "capacity", type: "n", definition: "the ability to contain or hold", vietnamese: "năng lực, khả năng" },
             { english: "durable", type: "adj", definition: "sturdy, strong, lasting", vietnamese: "bền bỉ" },
             { english: "initiative", type: "n", definition: "the first step; an active role", vietnamese: "bước đầu, sáng kiến" },
@@ -129,7 +129,7 @@ export const VOCABULARY_TOPICS: Topic[] = [
             { english: "provider", type: "n", definition: "a supplier", vietnamese: "nhà cung cấp" },
             { english: "recur", type: "v", definition: "to occur again or repeatedly", vietnamese: "lặp lại, tái diễn" },
             { english: "reduction", type: "n", definition: "a lessening, a decrease", vietnamese: "sự thu nhỏ, giảm" },
-            { english: "stay on top of", type: "v", definition: "to know what is going on", vietnamese: "xếp hạng đầu" },
+            { english: "stay on top of", type: "v", definition: "to know what is going on", vietnamese: "xếp hạng đầu, nắm bắt tình hình, hiểu thông tin mới nhất" },
             { english: "stock", type: "n", definition: "a supply; v, to keep on hand", vietnamese: "kho dự trữ" }
         ]
     },
@@ -182,10 +182,10 @@ export const VOCABULARY_TOPICS: Topic[] = [
             { english: "courier", type: "n", definition: "a messenger", vietnamese: "người đưa tin, người đưa thư" },
             { english: "express", type: "adj", definition: "fast and direct", vietnamese: "nhanh, hỏa tốc" },
             { english: "fold", type: "v", definition: "to bend paper", vietnamese: "gấp lại" },
-            { english: "layout", type: "n", definition: "a format; the organization of material on a page", vietnamese: "sự bố trí trang giấy" },
+            { english: "layout", type: "n", definition: "a format; the organization of material on a page", vietnamese: "sự bố trí trang giấy, bố cục" },
             { english: "mention", type: "v", definition: "to refer to", vietnamese: "đề cập, sự ghi chép" },
             { english: "petition", type: "n", definition: "a formal, written request", vietnamese: "đơn yêu cầu, kiến nghị" },
-            { english: "proof", type: "v", definition: "to look for errors", vietnamese: "chứng minh" },
+            { english: "proof", type: "v", definition: "to look for errors", vietnamese: "bằng chứng, chứng cứ" },
             { english: "registered", type: "adj", definition: "recorded and tracked", vietnamese: "đăng ký" },
             { english: "revise", type: "v", definition: "to rewrite", vietnamese: "sửa lại" }
         ]
@@ -198,7 +198,7 @@ export const VOCABULARY_TOPICS: Topic[] = [
             { english: "abundant", type: "adj", definition: "plentiful, in large quantities", vietnamese: "nhiều, phong phú" },
             { english: "accomplishment", type: "n", definition: "an achievement, a success", vietnamese: "hoàn thành, đạt được" },
             { english: "bring together", type: "v", definition: "to join, to gather", vietnamese: "nhóm lại, gom lại" },
-            { english: "candidate", type: "n", definition: "one being considered for a position, office", vietnamese: "ứng cử viên" },
+            { english: "candidate", type: "n", definition: "one being considered for a position, office", vietnamese: "ứng viên" },
             { english: "come up with", type: "v", definition: "to plan, to invent, to think of", vietnamese: "ý định, nảy ra" },
             { english: "commensurate", type: "adj", definition: "in proportion to, equal to", vietnamese: "tương xứng, cân xứng" },
             { english: "match", type: "n", definition: "a fit, a similarity", vietnamese: "vừa, phù hợp" },
