@@ -1,0 +1,5 @@
+{
+  "name": "TOEIC Vocabulary Builder",
+  "description": "An interactive web application to help users learn and memorize 600 essential TOEIC vocabulary words, categorized by topic. Users can select a topic, and the app presents English words for which they must provide the correct Vietnamese translation.",
+  "requestFramePermissions": []
+}
